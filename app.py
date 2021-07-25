@@ -1,17 +1,16 @@
 from flask import Flask,url_for,render_template,request
 from flaskext.markdown import Markdown
-
-
 import spacy
 from spacy import displacy
-import json
+
+# en_core_web_trf is the spacy version for tranformers
 nlp = spacy.load('en_core_web_trf')
 
 
 HTML_WRAPPER = """<div style="overflow-x: auto; border: 1px solid #e6e9ef; border-radius: 0.25rem; padding: 1rem">{}</div>"""
 
 
-# Init
+# init the app
 app = Flask(__name__)
 Markdown(app)
 
