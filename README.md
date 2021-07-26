@@ -19,4 +19,4 @@ You should get the following message : "Running on http://127.0.0.1:5000/ (Press
 
 You can have a look at what you should get by seeing the two files in the repository :
 - img_homepage.png : shows the home page, you can see a textarea where you can type a text
-- Company Names Extractor_exple.html : shows what the app renders. it's basically the original text and a text with companies names highlighted.
+- Company Names Extractor_exple.html : shows what the app renders. it's basically the original text and a text with company names highlighted.
